@@ -1,0 +1,49 @@
+{
+    "address": "19N7RSTpyfhr6U44pcfa2ns1ycMrSx3A7a", 
+    "description": "", 
+    "files": {
+        "css/all.css": {
+            "sha1": "70883af14cc9b31cba237c03271fe9d1bf5faded", 
+            "sha512": "f7352707ae15598156eff9680aaa92c04c3669f7ea766f6c6062c4f3efe0c5b0", 
+            "size": 70900
+        }, 
+        "index.html": {
+            "sha1": "02192e1d8a009daf7bab3064ef4bd5f67936d37b", 
+            "sha512": "011154b2cc2bff5a548c56a807299662ae172213820ee49e1575ef6925d2a018", 
+            "size": 672
+        }, 
+        "js/all.js": {
+            "sha1": "54eed96d580d84f5f7f1c424fbb847e8dc31832e", 
+            "sha512": "a06638841ab3eff2d024c04a09bd91091f1079b1d136276ce0bb0f56fc8b870b", 
+            "size": 415
+        }, 
+        "js/jquery-1.11.2.js": {
+            "sha1": "5b57851b09022c5e5f3a5fd08152b2dc12671974", 
+            "sha512": "ee202d83189b3dda545182f01d8890cf6951a44b33ff95571c8f43178d28c525", 
+            "size": 284184
+        }, 
+        "posts/0.json": {
+            "sha1": "9e26ebd098e95c7a50ede7424f2a30e0a4e8016e", 
+            "sha512": "2687ad8afa7580212539626b312532a320ecbbbfc87d32e569abfa59feea2b1b", 
+            "size": 85
+        }, 
+        "posts/1.json": {
+            "sha1": "d05b7bf17abc4fd97b40fff11415e56352c82c37", 
+            "sha512": "68d0dc452fd75719f6ce7949a83ad7f60d16e0e146749278fe4c660ef71d4334", 
+            "size": 745
+        }, 
+        "posts/2.json": {
+            "sha1": "8008a1611b6f51a39751af3f0ce003a6346b6ad6", 
+            "sha512": "3a69c31183ff57b18cebf03c2bcb74ae1ade43678638d523b89d62188e244ca7", 
+            "size": 816
+        }
+    }, 
+    "ignore": "", 
+    "modified": 1422446492.654432, 
+    "sign": [
+        34676472120264789304747336509029358602511527338216506809498351250824860754093, 
+        63337032102433446942944736036624484909933492649391204409057563723494918408071
+    ], 
+    "title": "19N7RSTpyfhr6U44pcfa2ns1ycMrSx3A7a - ZeroNet_", 
+    "zeronet_version": "0.1.6"
+}
