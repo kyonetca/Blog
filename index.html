@@ -4,28 +4,39 @@
  <title>ZeroNetProxy</title>
  <meta charset="utf-8">
  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
- <link rel="stylesheet" href="css/all.css" />
 </head>
 <body onload='setContent()'>
 
-<a onclick=\"goToPage(1)\"><h1><a onclick="home()">ZeroNetProxy</a></h1></a>
+<div class="container">
 
-<a onclick=\"goToPage(1)\"><h3 class="description">the Public Portal</h3></a>
+<div class="row">
+ <div class="two-thirds column">
+  <h1><a onclick="goToPage(0)">ZeroNetProxy</a></h1>
+ </div>
+</div>
 
-<h2 style='margin-left: 18px' id='pageTitle'></h2>
-<p style='margin-left: 18px' id='pageContent'></p>
-
-
-</p>
-<p style='margin-left: 18px' id='postAdded'></p>
-<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
-<script type="text/javascript" src="js/all.js"></script>
-<script>
-goToPage(0)
-</script>
+<div class="row">
+ <div class="two-thirds column">
+  <p style='margin-left: 18px' id='pageDate'>Post date should go here.</p>
+  <h2 style='margin-left: 18px' id='pageTitle'>Title's go here.</h2>
+  <p style='margin-left: 18px' id='pageContent'>Post content goes here.</p>
+ </div>
+</div>
+ 
+</div>
 
 <footer>
  Template by <a href="http://reddit.com/u/BrassTeaCup" target="_top">BrassTeaCup</a>
 </footer>
+
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/skeleton.css" />
+
+ <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+<script type="text/javascript" src="js/all.js"></script>
+<script>
+goToPage(0)
+</script>
 </body>
 </html>

@@ -8,6 +8,7 @@ function setContent() {
 
 	$.getJSON( "posts/" + s, function( data ) {
 
+		document.getElementById('pageDate').innerHTML = data.date;
 		document.getElementById('pageTitle').innerHTML = data.title;
 		document.getElementById('pageContent').innerHTML = data.body;
 
