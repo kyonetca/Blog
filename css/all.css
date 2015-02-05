@@ -84,10 +84,10 @@ a:hover { background-color: rgba(0,0,0,0.2); cursor: pointer; }
 }
 
 img {
-	max-width:50%;
+	max-width:80%;
 }
 
 .logo {
-	width:10%;
+	width:50%;
 }
 
