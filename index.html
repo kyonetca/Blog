@@ -8,23 +8,26 @@
 </head>
 <body onload='setContent()'>
 
-<div class="header"></div>
-<h1><img src="img/logo.png" class="logo" alt="ZeroNetProxy" /><a onclick=\"goToPage(1)\"><a onclick="home()">ZeroNetProxy</a></h1></a>
-</div>
+<div class="container">
 
-<a onclick=\"goToPage(1)\"><h3 class="description">the Public Portal</h3></a>
+<div class="row"></div>
+ <div class="two-thirds column">
+  <img src="img/logo.png" class="logo" alt="ZeroNetProxy" />
+  <h1><a onclick="goToPage(0)"><a onclick="home()">ZeroNetProxy</a></h1></a>
+  <a onclick="goToPage(0)"><h3 class="description">the Public Portal</h3></a>
+ </div>
+</div>
 
 <h2 style='margin-left: 18px' id='pageTitle'></h2>
 <p style='margin-left: 18px' id='pageContent'></p>
-
-
-</p>
 <p style='margin-left: 18px' id='postAdded'></p>
 <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
 <script type="text/javascript" src="js/all.js"></script>
 <script>
 goToPage(0)
 </script>
+
+</div>
 
 <footer>
  Template by <a href="http://reddit.com/u/BrassTeaCup" target="_top">BrassTeaCup</a>
