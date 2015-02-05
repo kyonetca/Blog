@@ -4,7 +4,7 @@ h1 { font-family: 'Text Me One', sans-serif; font-size: 100px; line-height: 100p
 h2 { font-size: 35px; margin-top: 30px }
 h3 { font-size: 23px }
 h4 { display: block; font-size: 11px; text-transform: uppercase; margin-bottom: 19px }
-footer { position:absolute; bottom:0; width:80%; text-align:right;}
+footer { position:absolute; bottom:0; width:90%; text-align:right;}
 
 input { font-family: 'Roboto', sans-serif; font-size: 20px; padding: 10px 10px; width: 460px; border: none; border: 2px solid white; -webkit-transition: all 0.3s ; -moz-transition: all 0.3s ; -o-transition: all 0.3s ; -ms-transition: all 0.3s ; transition: all 0.3s  } /*#AF3BFF; #3498db*/
 input:focus { border-color: #5FC0EA; outline: none; background-color: white }
