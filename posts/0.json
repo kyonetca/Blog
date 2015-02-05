@@ -1,4 +1,4 @@
 {
   "title": "Contents",
-  "body": "<ul><li><a onclick=\"goToPage(1)\">Day 0</ a></li><li><a onclick=\"goToPage(2)\">Bloody Proxify!</ a></li></ul>"
+  "body": "<ul><li><a onclick=\"goToPage(1)\">Day 0</ a></li><li><a onclick=\"goToPage(2)\">Bloody Proxify!</ a></li><li><a onclick=\"goToPage(3)\">CrossPlatform</ a></li></ul>"
 }
