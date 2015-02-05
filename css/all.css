@@ -88,6 +88,8 @@ img {
 }
 
 .logo {
-	width:70px;
+	display: block;
+	width: 100%;
+	margin: auto;
 }
 
