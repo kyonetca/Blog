@@ -84,7 +84,6 @@ a:hover { background-color: rgba(0,0,0,0.2); cursor: pointer; }
 }
 
 img {
-	display:inline-block;
 	max-width:50%;
 }
 
