@@ -1,9 +1,3 @@
-var today = new Date();
-var dd = today.getDate();
-var mm = today.getMonth()+1; //January is 0!
-var yyyy = today.getFullYear();
-
-
 function setContent() {
 	if (window.name == "")
 	{
@@ -37,7 +31,4 @@ if(dd<10) {
 
 if(mm<10) {
     mm='0'+mm
-} 
-
-today = mm+'/'+dd+'/'+yyyy;
-today.toString() = today;
+}
