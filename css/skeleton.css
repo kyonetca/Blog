@@ -379,7 +379,7 @@ hr {
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
 
-desktop-only: {
+.desktop-only: {
   display:none;
 }
 
@@ -406,7 +406,7 @@ there.
 
 /* Larger than mobile */
 @media (min-width: 400px) {
-  desktop-only: {
+  .desktop-only: {
     display:block;
   }
 }
