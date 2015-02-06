@@ -379,6 +379,9 @@ hr {
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
 
+desktop-only: {
+  display:none;
+}
 
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -401,19 +404,16 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
-
 /* Larger than mobile */
 @media (min-width: 400px) {
   desktop-only: {
-    display:none;
+    display:block;
   }
 }
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
-  desktop-only: {
-    display:block;
-  }
+  
 }
 
 /* Larger than tablet */
