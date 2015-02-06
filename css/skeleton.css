@@ -379,11 +379,7 @@ hr {
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
 
-.desktop-only: {
-  display:block;
-}
-
-@-ms-viewport { 
+@-ms-viewport {
   width:100%;
   width:100vw;
 }
@@ -409,21 +405,20 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
-/* Small than mobile */
-@media (max-width:300px) {
-  .desktop-only: {
-    display:none;
-  }
+@media screen and (min-width: 0px) and (max-width: 720px) {
+  #pageMenu { display: none; }
+  .desktop-only{ display: none; }
+  footer { display: none; }
 }
 
 /* Larger than mobile */
 @media (min-width: 400px) {
-  
+
 }
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
-  
+
 }
 
 /* Larger than tablet */
