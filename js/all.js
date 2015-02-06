@@ -13,6 +13,10 @@ function setContent() {
 		document.getElementById('pageContent').innerHTML = data.body;
 
 	});
+
+	$.getJSON( "posts/" + "0.json", function( data ) {
+		document.getElementById('pageMenu').innerHTML = data.body;
+	});
 }
 
 function goToPage(id) {
@@ -21,6 +25,14 @@ function goToPage(id) {
 }
 
 function home() {
-	window.name = "default";
+	window.name = "0";
 	setContent();
+}
+
+if(dd<10) {
+    dd='0'+dd
+}
+
+if(mm<10) {
+    mm='0'+mm
 }
