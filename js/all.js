@@ -40,3 +40,4 @@ if(mm<10) {
 } 
 
 today = mm+'/'+dd+'/'+yyyy;
+today.toString() = today;
