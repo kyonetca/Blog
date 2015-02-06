@@ -21,7 +21,7 @@ function goToPage(id) {
 }
 
 function home() {
-	window.name = "default";
+	window.name = "Contents";
 	setContent();
 }
 
