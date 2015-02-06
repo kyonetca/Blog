@@ -403,10 +403,18 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+  desktop-only: {
+    display:none;
+  }
+}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+  desktop-only: {
+    display:block;
+  }
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}
